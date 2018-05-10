@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Dancing+Script|Pacifico|Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Dancing+Script|Exo+2|Pacifico|Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Amatic+SC');
+html body{
+	/*typography*/
+	font-family: 'Alegreya Sans', sans-serif;
+	line-height: 2em;
+	
+}
+
+.jumbotron{
+	background:url(images/cofHead.jpeg) center center no-repeat;
+	background-size: cover;
+	background-color:#F5B7B1;
+	height: 20em;
+}
+
+.title{
+	/*font-family: 'Dancing Script', cursive;*/
+	font-family: 'Sacramento', cursive;
+	font-size:4.5em;
+	float:right;
+	color:#523A38;
+	transform: rotate(10deg);
+	transform: skewX(12deg);
+}
+@media (max-width:500px){
+	.title{
+		transform: translateY(190%);
+		font-size:2em;
+	}
+}
+
+.category-header{
+	font-family: 'Amatic SC', cursive;
+	background-color:#6DDDD1;
+	text-transform: uppercase;
+	height: 6em;
+}
+.category-header h2{
+	font-size:4em;
+
+}
+.text-center{
+
+	letter-spacing:.35em;
+	color:#fff;
+}
+.card-page-head{
+	letter-spacing: .35em;
+	color:#000;
+}
+/*---------------------------------------Nav_Menu-----------------------------------_*/
+
+.nav-pills{
+	margin-bottom:2em;
+	background-color: transparent;
+	
+}
+.nav-menue{
+	color: #F5B7B1;
+}
+.card-title:hover{
+	text-decoration:underline;
+
+}
+.nav-menue:hover{
+	font-size:2em;
+	text-decoration: none;
+	color:#F5B7B1;
+}
+@media(max-width: 500px){
+	.nav-pills{
+		display: inline-block;
+
+	}
+	.nav-menue{
+		margin-left:1em;
+		padding-right:1em;
+	}
+}
+/*---------------------------------------Nav_Menu-----------------------------------_*/
+
+
+/*---------------------------------------Nav_Categories-----------------------------------_*/
+.nav-cat{
+	text-decoration: none;
+	color:#000;
+}
+
+
+
+
+/*---------------------------------------Nav_Categories-----------------------------------_*/
+
+/*---------------------------------------CARD-----------------------------------_*/
+
+.card{
+	display: inline-grid;
+	margin: 2em;
+	float: center;
+	margin-bottom:1em;
+
+}
+.card:hover{
+	box-shadow: 0px 0px 20px 3px rgba(245, 183, 177,0.6);
+
+}
+.card-img-top{
+	height:13rem;
+	width:18rem;
+}
+.btn-outline-secondary{
+	padding-left:6em;
+	padding-right:6em;
+	float:center;
+}
+.card-btn{
+	border:solid;
+	border-radius:5%;
+	color:#F5B7B1;
+	padding-left:6em;
+	padding-right: 6em;
+}
+.card-text{
+	font-size: 1em;
+	margin-bottom:1em;
+}
+.card-link{
+	color:#00695C;
+}
+/*---------------------------------------CARD-----------------------------------_*/
+
+/*---------------------------------------Footer-----------------------------------_*/
+.footer-frame{
+	background-color:#F5B7B1;
+	height:6em;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.footer-frame .footer-text .dev a{
+
+	float:right;
+	font-size:1em;
+	text-decoration: none;
+	color:#fff;
+}
+
+.footer-frame .footer-text .dev a:hover{
+	font-size:1.5em;
+}
+
+@media (max-width: 500px){
+	.footer-frame .footer-text .dev a{
+		font-size:.8em;
+	}
+}
+/*---------------------------------------Footer-----------------------------------_*/
+
+
+
+
+
+
+
+
+
+
+

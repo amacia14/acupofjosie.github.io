@@ -1,0 +1,10 @@
+.container{
+
+	
+}
+@media(max-width: 500px){
+	.container{
+		margin-left:.05em;
+		margin-right:.5em;
+	}
+}

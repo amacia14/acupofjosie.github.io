@@ -1,0 +1,20 @@
+.contact-p{
+	line-height:3em;
+}
+.btn{
+	border:solid #9E9E9E;
+	border-width:.5px;
+	padding:1em 6em;
+	margin-top:2em;
+	margin-left:11em;
+
+}
+.btn:hover{
+	box-shadow: 0px 0px 20px 3px rgba(66, 66, 66,0.1);
+	background-color:rgba(245, 183, 177);
+}
+@media (max-width:500px){
+	.btn{
+		margin-left:0;
+	}
+}
