@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Dancing+Script|Exo+2|Pacifico|Sacramento');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Bevan|Luckiest+Guy|Martel:900');
 html body{
 	/*typography*/
 	font-family: 'Alegreya Sans', sans-serif;
@@ -49,8 +50,17 @@ html body{
 	color:#fff;
 }
 .card-page-head{
-	letter-spacing: .35em;
+	letter-spacing: .14em;
+	height:3.5em;
+	font-size:3em;
 	color:#000;
+	font-family: 'Martel', serif;
+	padding-top:1em;
+}
+@media (max-width:500px){
+	.card-page-head{
+		font-size:1.5em;
+	}
 }
 /*---------------------------------------Nav_Menu-----------------------------------_*/
 
@@ -132,6 +142,17 @@ html body{
 	color:#00695C;
 }
 /*---------------------------------------CARD-----------------------------------_*/
+
+.publish{
+	margin-top: 4em;
+	margin-bottom: 3em;
+}
+
+.bodyBlog{
+	margin-bottom:5em;
+}
+
+
 
 /*---------------------------------------Footer-----------------------------------_*/
 .footer-frame{
