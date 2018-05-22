@@ -62,6 +62,25 @@ html body{
 		font-size:1.5em;
 	}
 }
+
+.pagination{
+	margin-top:2em;
+	color: #000;
+}
+.pagination .page-item .page-link:hover{
+	color: #8BCFB3;
+	background-color: transparent;
+
+}
+.pagination .page-item .page-link{
+	border: none;
+}
+@media (max-width: 500px){
+	.pagination{
+		font-size:.75em;
+
+	}
+}
 /*---------------------------------------Nav_Menu-----------------------------------_*/
 
 .nav-pills{
@@ -91,6 +110,7 @@ html body{
 		padding-right:1em;
 	}
 }
+
 /*---------------------------------------Nav_Menu-----------------------------------_*/
 
 
